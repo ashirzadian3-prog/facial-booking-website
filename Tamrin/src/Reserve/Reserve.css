@@ -1,0 +1,82 @@
+.Reservesection {
+    padding: 4rem 2rem;
+    background-color: rgb(253, 240, 236);
+
+}
+
+.Reservecontainer {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.Reservecontainer h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(106, 32, 24);
+    margin-bottom: 0.5rem;
+}
+
+.Reservecontainer p {
+    font-size: 0.8rem;
+    text-align: center;
+    color: rgb(160, 112, 96);
+    margin-bottom: 2rem;
+}
+
+.formcontainer {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 22px;
+
+}
+
+.form {
+    margin-bottom: 1rem;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    display: block;
+    font-size: 0.75rem;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+    color: rgb(122, 64, 48);
+}
+
+.form input {
+    padding: 0.4rem;
+    border: 1.5px solid rgb(240, 221, 213);
+    padding: 0.7rem 0.9rem;
+    border-radius: 10px;
+    padding: 0.7rem 0.9rem;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form textarea {
+    resize: none;
+    padding: 0.4rem;
+    border: 1.5px solid rgb(240, 221, 213);
+    padding: 0.7rem 0.9rem;
+    border-radius: 10px;
+    padding: 0.7rem 0.9rem;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form input:focus,
+.form textarea:focus {
+    border-color: #c0705a;
+}
+
+.formbut {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

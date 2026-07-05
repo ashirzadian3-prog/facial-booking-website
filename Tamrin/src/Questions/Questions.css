@@ -1,0 +1,126 @@
+.Questionscontainer {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Questionscontainer h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(106, 32, 24);
+    margin-bottom: 0.8rem;
+    margin-top: 0;
+}
+
+.Questions {
+    width: 600px;
+    align-items: center;
+}
+
+.butQuestion {
+    width: 100%;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    color: rgb(106, 32, 24);
+    ;
+    font-size: 0.9rem;
+    font-size: 600;
+    border: 1px solid rgb(240, 221, 213);
+    border-radius: 12px;
+    padding: 1rem 2rem;
+    margin-bottom: 20px;
+}
+
+
+.butQuestion span {
+    color: rgb(192, 112, 90);
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+
+.Questionscontainer {
+    padding: 4rem 2rem;
+    background: #fff;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.Questionscontainer h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #6a2018;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.Questions {
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.8rem; */
+}
+
+.butQuestion {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #f0ddd5;
+    border-radius: 12px;
+    padding: 1rem 1.2rem;
+    text-align: right;
+    cursor: pointer;
+    font-family: Tahoma, sans-serif;
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: #6a2018;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.butQuestion:hover {
+    background: #fff5f1;
+    border-color: #c0705a;
+    transition: 0.2s;
+}
+
+.answerquestion {
+    max-height: 0;
+    /* مخفی در حالت عادی */
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.answerquestion.active {
+    max-height: 200px;
+    /* باز شدن با انیمیشن */
+    padding: 15px;
+    /* نمایش پدینگ در حالت باز */
+}
+
+.naswerbut {
+    width: 600px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border: 1px solid #f0ddd5;
+    border-radius: 12px;
+    color: rgb(122, 80, 64);
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.2rem;
+    background-color: rgb(255, 245, 241);
+    ;
+}
+
+.naswerbut span {
+    color: rgb(192, 112, 90);
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}

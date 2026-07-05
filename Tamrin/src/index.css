@@ -1,0 +1,16 @@
+/* * {
+    text-align: right;
+
+} */
+
+.container {
+    margin: 20px;
+    text-align: right;
+    box-sizing: border-box;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,37 @@
+.Aboutuscontainer {
+    padding: 4rem 2rem;
+    background-color: rgb(253, 240, 236);
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Aboutuscontainer h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(106, 32, 24);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.Aboutuscontainer p {
+    color: rgb(122, 64, 48);
+    line-height: 2;
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+}
+
+.Aboutuscontainer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0;
+}
+
+.Aboutuscontainer ul li {
+    font-size: 0.8rem;
+    color: rgb(122, 64, 48);
+    display: flex;
+    gap: 0.5rem;
+}

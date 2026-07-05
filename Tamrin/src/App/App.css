@@ -1,0 +1,17 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: right;
+    direction: rtl;
+    font-family: Tahoma, sans-serif;
+}
+
+@font-face {
+    font-family: 'IranYekan';
+    src: url('../fonts/iranyekanwebmedium.2d4f96e5.2d4f96e5.woff');
+}
+
+* {
+    font-family: "IranYekan", sans-serif;
+    font-weight: 500;
+}

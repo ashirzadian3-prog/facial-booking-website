@@ -1,0 +1,82 @@
+.Homefirstcontainer {
+    padding: 4rem 2rem;
+    background-color: #FDEBE3;
+}
+
+.hfs {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homefirstbut {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.homefirstbut a {
+    display: inline-block;
+    background: rgb(255, 214, 200);
+    color: rgb(158, 61, 40);
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    margin-bottom: 1.2rem;
+    border: navajowhite;
+}
+
+.homefirstyedxy {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homefirstyedxy p {
+    text-align: center;
+    align-items: center;
+    max-width: 516px;
+    text-align: center;
+    font-size: 1.05rem;
+    line-height: 1.9;
+    color: rgb(160, 80, 64);
+    padding-bottom: 2rem;
+}
+
+.homefirstyedxy h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: rgb(106, 32, 24);
+    margin-bottom: 1rem;
+}
+
+.hfbutns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.hfbutns a,
+button {
+    background: rgb(192, 112, 90);
+    border-radius: 999px;
+    border: none;
+    padding: 0.90rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.hfbutns .hfbutnssecond {
+    background-color: #ffff;
+    border: 2px solid rgb(192, 112, 90);
+    color: rgb(192, 112, 90);
+
+}

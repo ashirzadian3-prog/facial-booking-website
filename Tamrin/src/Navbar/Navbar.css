@@ -1,0 +1,55 @@
+.containernav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid rgb(245, 224, 216);
+    position: sticky;
+}
+
+.navrigth div {
+    color: rgb(158, 61, 40);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.navrigth p {
+    font-size: 0.7rem;
+    color: rgb(192, 128, 112);
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navleft ul {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navleft ul li a {
+    color: rgb(122, 64, 48);
+    font-size: 0.9rem;
+}
+
+.navbut {
+    background: rgb(192, 112, 90);
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbut a {
+    color: #FFFFFF;
+}
