@@ -37,7 +37,7 @@ function Reserve() {
         <section className='Reservesection' id='reserve'>
             <div className='Reservecontainer'>
                 {done ? (
-                    <div>dddدرخواست شما ثبت شد 🌸</div>
+                    <div>درخواست شما ثبت شد 🌸</div>
                 ) : (
                     <>
                         <h2>رزرو نوبت آنلاین</h2>
