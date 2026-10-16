@@ -2,6 +2,12 @@ import { useState } from 'react'
 import './Reserve.css'
 import emailjs from '@emailjs/browser';
 
+// EmailJS identifiers are public by design (they ship in the browser bundle).
+// Override them with your own via a .env file; see .env.example.
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || "service_39u99jc"
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "template_4lkyuie"
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "uYheT3XcSNr3O91MC"
+
 function Reserve() {
 
     const [form, setform] = useState({ name: "", phone: "", text: "" })
@@ -17,15 +23,14 @@ function Reserve() {
             return;
         }
         emailjs.send(
-            "service_39u99jc",
-            "template_4lkyuie",
+            EMAILJS_SERVICE_ID,
+            EMAILJS_TEMPLATE_ID,
             {
                 from_name: form.name,
                 phone: form.phone,
                 message: form.text,
             },
-            "uYheT3XcSNr3O91MC"
-
+            EMAILJS_PUBLIC_KEY
         ).then(() => {
             setDone(true);
         }).catch(() => {
@@ -49,7 +54,7 @@ function Reserve() {
                             </div>
                             <div className='form'>
                                 <label>شماره موبایل</label>
-                                <input type="text" placeholder='...09' onChange={change} name='phone' value={form.phone} />
+                                <input type="tel" inputMode="tel" placeholder='...09' onChange={change} name='phone' value={form.phone} />
                             </div>
                             <div className='form'>
                                 <label>توضیحات (اختیاری)</label>

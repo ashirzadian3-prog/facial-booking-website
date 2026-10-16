@@ -1,0 +1,71 @@
+/* Responsive overrides. Loaded after the component styles (see main.jsx). */
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 900px) {
+    .Serviceboxcontainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .containernav {
+        flex-direction: column;
+        gap: 0.8rem;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .navleft {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.8rem;
+    }
+
+    .navleft ul {
+        gap: 1rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbut {
+        white-space: nowrap;
+    }
+
+    .contaienrnavbootom ul {
+        flex-wrap: wrap;
+        gap: 0.5rem 1.2rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .Homefirstcontainer,
+    .Servicecontainer,
+    .Aboutuscontainer,
+    .Questionscontainer,
+    .Reservesection {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .Serviceboxcontainer {
+        grid-template-columns: 1fr;
+    }
+
+    .Questions,
+    .naswerbut {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .Reservecontainer {
+        max-width: 100%;
+    }
+}

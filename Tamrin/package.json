@@ -1,7 +1,14 @@
 {
-  "name": "tamrin",
+  "name": "facial-booking-website",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Persian booking website for a professional facial and skin-care specialist",
+  "license": "MIT",
+  "author": "A Shirzadian",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashirzadian3-prog/facial-booking-website.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,6 +21,7 @@
     "axios": "^1.17.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
+    "react-icons": "^5.7.0",
     "react-router-dom": "^7.17.0"
   },
   "devDependencies": {

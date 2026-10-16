@@ -1,7 +1,6 @@
 import './Questions.css'
 import { useState } from 'react';
 import { FiPlus } from "react-icons/fi";
-import { GoHorizontalRule } from "react-icons/go";
 import { VscRemove } from "react-icons/vsc";
 
 
@@ -12,11 +11,11 @@ function Questions() {
     const questions = [
         {
             question: "فیشال چند جلسه نیاز داره؟",
-            answer: "برای نتیجه بهتر..."
+            answer: "برای نتیجه بهتر ۴ تا ۶ جلسه توصیه میشه. هر جلسه هر ۴ هفته یه بار."
         },
         {
             question: "آیا فیشال درد داره؟",
-            answer: "خیر..."
+            answer: "خیر. فیشال کاملاً بدون درده. فقط ممکنه پوست بعد از تخلیه کمی قرمز بشه که تا ۲۴ ساعت برطرف میشه."
         },
         {
             question: "قبل از فیشال چیکار کنم؟",
